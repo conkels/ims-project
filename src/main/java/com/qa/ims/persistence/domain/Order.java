@@ -10,6 +10,7 @@ public class Order {
 	private ArrayList<Item> items = new ArrayList<Item>();
 	private Double cost;
 	private Long qty;
+	
 	public Order(Customer customer, ArrayList<Item> items, Double cost, Long qty) {
 		super();
 		this.customer = customer;
